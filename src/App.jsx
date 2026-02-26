@@ -1,12 +1,12 @@
 import { useState } from 'react'
 
-import Navbar from './Components/Navbar'
-import Hero from './Components/Hero'
-import About from './Components/About'
-import Projects from './Components/Projects'
-import Experience from './Components/Experience'
-import Skills from './Components/Skills'
-import Contact from './Components/Contact'
+import Navbar from './components/Navbar'
+import Hero from './components/Hero'
+import About from './components/About'
+import Projects from './components/Projects'
+import Experience from './components/Experience'
+import Skills from './components/Skills'
+import Contact from './components/Contact'
 import "./styles.css"
 function App() {
   const [count, setCount] = useState(0)
